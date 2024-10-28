@@ -2,7 +2,7 @@
 
 # Step 1: 安装常规依赖
 echo "Installing dependencies..."
-sudo yum install -y tinyxml2 autoconf
+sudo yum install -y tinyxml2 autoconf libtool-devel libtool
 
 # Step 2: 安装 Protobuf 3.20.x
 echo "Installing Protobuf 3.20.x from source..."
